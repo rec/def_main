@@ -2,12 +2,20 @@
 ``def_main``: a tiny decorator to define main
 ========================================================
 
-Define the main function in one step.
+Define a Python main function in one step - no more `__main__`!
 
 For any non-trivial projects, use typer and dtyper instead!
 
+How to install
+==================
 
-Usage example
+Use ``pip``:
+
+.. code-block:: bash
+
+    pip install def_main
+
+Usage examples
 ==================
 
 Without an return code
