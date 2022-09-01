@@ -10,7 +10,7 @@ def def_main(f: Callable) -> Callable:
 
 
 sys.modules['def_main'] = def_main
-def_main.__version__ = '0.9.2'
+def_main.__version__ = '0.10.0'
 
 
 @def_main
