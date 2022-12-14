@@ -5,3 +5,24 @@ target-version = ['py37']
 
 [tool.doks]
 auto = true
+
+[tool.poetry]
+name = "def-main"
+version = "0.10.0"
+description = "Define the main function in one step and make it testable"
+authors = ["Tom Ritchford <tom@swirly.com>"]
+license = "MIT"
+readme = "README.rst"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.group.dev.dependencies]
+coverage = "^6.5.0"
+doks = "^1.0.1"
+flake8 = "^5.0.4"
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
