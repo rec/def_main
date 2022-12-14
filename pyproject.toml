@@ -8,7 +8,7 @@ auto = true
 
 [tool.poetry]
 name = "def-main"
-version = "0.10.0"
+version = "0.11.0"
 description = "Define the main function in one step and make it testable"
 authors = ["Tom Ritchford <tom@swirly.com>"]
 license = "MIT"
