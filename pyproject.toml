@@ -9,7 +9,7 @@ auto = true
 [tool.poetry]
 name = "def-main"
 version = "0.11.0"
-description = "Define the main function in one step and make it testable"
+description = "🗣 A decorator for main 🗣"
 authors = ["Tom Ritchford <tom@swirly.com>"]
 license = "MIT"
 readme = "README.rst"
