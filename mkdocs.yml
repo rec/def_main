@@ -1,0 +1,19 @@
+site_name: '🗣: `def_main`: A decorator for main 🗣'
+
+theme:
+  name: material
+
+  palette:
+    primary:
+      'orange'
+
+  font:
+    text:
+      Roboto
+    code:
+      Roboto Mono
+
+extra_css: [extra.css]
+
+plugins:
+    - mkdocstrings
