@@ -10,7 +10,9 @@ def def_main(f: Callable) -> Callable:
     MAINS.append((f, s.filename, s.lineno))
 
     if f.__module__ == '__main__':
-        f(*sys.argv[1:])
+        result = f(*sys.argv[1:])
+        if result:
+            sys.exit(result)
 
     return f
 
