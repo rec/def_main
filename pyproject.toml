@@ -1,6 +1,6 @@
 [project]
 name = "def-main"
-version = "0.11.1"
+version = "0.12.0"
 description = "🗣 A decorator for main 🗣"
 authors = [{ name = "Tom Ritchford", email = "tom@swirly.com" }]
 requires-python = ">=3.10"
