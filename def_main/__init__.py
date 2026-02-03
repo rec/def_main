@@ -1,6 +1,6 @@
-from typing import Callable
 import inspect
 import sys
+from collections.abc import Callable
 
 MAINS = []
 
