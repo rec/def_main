@@ -25,7 +25,17 @@ dev = [
     "ty>=0.0.14",
 ]
 
+[tool.poetry]
+name = "def-main"
+version = "0.1.0"
+description = "🗣 A decorator for main 🗣"
+authors = ["Tom Ritchford <tom@swirly.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
-
